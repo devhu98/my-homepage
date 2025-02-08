@@ -115,12 +115,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // 切换主题
 
-    // function changeTheme(theme) {
-    //     // tanChiShe.src = "./static/svg/snake-" + theme + ".svg";
-    //     html.dataset.theme = theme;
-    //     setCookie("themeState", theme, 365);
-    //     themeState = theme;
-    // }
+    function changeTheme(theme) {
+        // tanChiShe.src = "./static/svg/snake-" + theme + ".svg";
+        html.dataset.theme = theme;
+        setCookie("themeState", theme, 365);
+        themeState = theme;
+    }
 
 
 
